@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Page Not Found</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+      body {
+        margin: 0 auto;
+        margin-top: 48px;
+        max-width: 616px;
+        padding: 0 16px;
+        font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(0,0,0,0.87);
+      }
+      h1, h2, h3 {
+        font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+        font-weight: 300;
+      }
+      h1 {
+        margin: 24px 0 16px 0;
+        padding: 0 0 16px 0;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+        font-size: 32px;
+        line-height: 36px;
+      }
+      h2 {
+        margin: 24px 0 16px 0;
+        padding: 0;
+        font-size: 20px;
+        line-height: 32px;
+        color: rgba(0,0,0,0.54);
+      }
+      p {
+        margin: 0;
+        margin-bottom: 16px;
+      }
+      ol {
+        margin: 0;
+
+      }
+      ol li {
+        margin: 0;
+        line-height: 24px;
+        padding-left: 12px;
+      }
+      a {
+        color: #039BE5;
+        text-decoration: underline;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      code {
+        display: inline-block;
+        padding: 3px 4px;
+        background-color: #ECEFF1;
+        border-radius: 3px;
+        font-family: 'Roboto Mono',"Liberation Mono",Courier,monospace;
+        font-size: 14px;
+        line-height: 1;
+      }
+      .logo {
+        display: block;
+        text-align: center;
+        margin-top: 48px;
+        margin-bottom: 24px;
+      }
+      img {
+        width: 220px;
+      }
+      @media screen and (max-width: 616px) {
+        body {
+         margin-top: 24px;
+        }
+
+        .logo  {
+          margin: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Page Not Found</h1>
+    <p>This file does not exist and there was no <code>index.html</code> found in the current directory or <code>404.html</code> in the root directory.</p>
+    <h2>Why am I seeing this?</h2>
+    <p>You may have deployed the wrong directory for your application.  Check your <code>firebase.json</code> and make sure the <strong>public</strong> directory is pointing to a directory that contains an <code>index.html</code> file.</p>
+    <p>You can also add a <code>404.html</code> in the root of your site to replace this page with a custom error page.</p>
+    <a class="logo" href="https://firebase.google.com">
+      <img src="data:image/png;base64,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

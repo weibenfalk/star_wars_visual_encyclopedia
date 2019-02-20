@@ -1,0 +1,31 @@
+.category {
+  max-width:375px;
+  height:275px;
+  background-size: cover !important;
+  background-position: center center !important;
+  position: relative;
+}
+
+.categoryText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  width: 100%;
+  height: 45px;
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding-top: 12px;
+  box-sizing: border-box
+}
+
+.categoryText h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.categoryText h2::first-letter {
+  text-transform: uppercase !important;
+}
