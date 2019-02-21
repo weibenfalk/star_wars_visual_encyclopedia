@@ -16,7 +16,7 @@ const HomeContainer = () => {
   const renderCategoryWidgets = () => {
     return categories.map((cat, i) => (
       <CategoryWidget
-        imageFilePath={`/sw_lexicon/images/categories/${cat}.png`}
+        imageFilePath={`/images/categories/${cat}.png`}
         categoryTitle={cat}
         key={i}
       />

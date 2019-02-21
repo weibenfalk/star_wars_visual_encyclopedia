@@ -29,7 +29,7 @@ const App = () => {
 
   return (
     <Provider initialValue={initialState}>
-      <BrowserRouter basename="/sw_lexicon/">
+      <BrowserRouter>
         <Switch>
           <Route path="/" exact component={HomeContainer} />
           <Route path="/:category" exact component={CategoryContainer} />

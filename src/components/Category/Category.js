@@ -16,7 +16,7 @@ const Category = ({
       <div
         className="category-logo"
         style={{
-          background: "url(./images/sw_logo.svg)"
+          background: "url(/images/sw_logo.svg)"
         }}
       />
       <Navigation category={navCategory} />

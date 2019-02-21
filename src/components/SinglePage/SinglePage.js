@@ -16,7 +16,7 @@ const SinglePage = ({
       <div
         className="category-logo"
         style={{
-          background: "url(/sw_lexicon/images/sw_logo.svg)"
+          background: "url(/images/sw_logo.svg)"
         }}
       />
       <Navigation category={category} element={element} />

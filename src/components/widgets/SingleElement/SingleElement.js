@@ -26,7 +26,7 @@ const SingleElement = ({ element, category, id, loading }) => {
       <div
         className="single-element-image"
         style={{
-          background: `url('/sw_lexicon/images/${category}/${id}.jpg')`
+          background: `url('/images/${category}/${id}.jpg')`
         }}
       />
       <div className="single-element-info">

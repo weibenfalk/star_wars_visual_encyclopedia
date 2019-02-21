@@ -12,7 +12,7 @@ const Grid = ({ elements, loadMorecallback, category, nextPage, loading }) => {
       const gridObject = {
         id,
         name: category !== "films" ? element.name : element.title,
-        img: `/sw_lexicon/images/${category}/${id}.jpg`
+        img: `/images/${category}/${id}.jpg`
       };
       return <GridElement key={i} element={gridObject} category={category} />;
     });

@@ -6,7 +6,7 @@ const Home = ({ renderCategoryWidgets }) => (
       <div
         className="logo"
         style={{
-          background: "url(/sw_lexicon/images/sw_logo.svg)"
+          background: "url(/images/sw_logo.svg)"
         }}
       />
       <div className="header-text">
