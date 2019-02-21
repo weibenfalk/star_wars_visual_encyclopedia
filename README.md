@@ -8,6 +8,7 @@ Images used in the Apps is collected from Wookipedia. There's some images missin
 To test the App locally just download or clone the repo and navigate into the directory.
 
 Then write: npm install
+
 Wait ...
 
 Use npm start to start the App and navigate to http://localhost:3000
