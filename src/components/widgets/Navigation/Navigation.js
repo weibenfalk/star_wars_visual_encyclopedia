@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import "./Navigation.css";
 
 const Navigation = ({ category, element }) => {
+  const test = "test";
   const getHistory = () => {
     let history = "";
     let cat = "";
