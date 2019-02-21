@@ -1,7 +1,8 @@
 # star_wars_visual_encyclopedia
 A Star Wars Visual Encyclopedia based on the open source SWAPI (Star Wars API) and images from Wookiepedia.
 
-You can check out the App in action here: http://weibenfalk.com/sw_lexicon/(This is the non hook version though but it looks exactly the same)
+You can check out the App in action here: http://weibenfalk.com/sw_lexicon/
+(This is the non hook version though but it looks exactly the same)
 
 1. Introduction
 
