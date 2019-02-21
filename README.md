@@ -9,6 +9,8 @@ Images used in the Apps is collected from Wookipedia. There's some images missin
 This is also an experimental App to use the React Hooks. And also using Hooks for Global State Management instead of 
 for example Redux or another external library. So this App has global state with React Hooks and no external library.
 
+2. Use the App locally
+
 To test the App locally just download or clone the repo and navigate into the directory.
 
 Then write: npm install
