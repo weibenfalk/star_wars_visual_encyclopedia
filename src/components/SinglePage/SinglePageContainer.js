@@ -6,7 +6,7 @@ import "./SinglePage.css";
 
 const SinglePageContainer = ({ match: { params: { category, id } } }) => {
   const [state, setState] = useStore('singlePageState');
-  console.log("render singlepage")
+
   const categories = [
     "characters",
     "people",
@@ -24,12 +24,12 @@ const SinglePageContainer = ({ match: { params: { category, id } } }) => {
   // Must clean up state on unmount
   useEffect(() => {
       return(() => {
-        setState(prevState => ({ element: null, related: {}, loading:false, category: null, id: null }));
+        setState({ element: null, related: {}, loading:false, category: null, id: null });
       })
   }, [])
 
   useEffect(() => {
-    setState(prevState => ({ element: null, related: {}, loading:true, category: null, id: null }));
+    setState({ element: null, related: {}, loading:true, category: null, id: null });
     fetchSingleAndRelated(category, id);
   }, [category, id])
 

@@ -1,9 +1,16 @@
 import React from "react";
-import Navigation from '../widgets/Navigation/Navigation';
-import SearchForm from '../widgets/SearchForm/SearchForm';
-import Grid from '../widgets/Grid/Grid';
+import Navigation from "../widgets/Navigation/Navigation";
+import SearchForm from "../widgets/SearchForm/SearchForm";
+import Grid from "../widgets/Grid/Grid";
 
-const Category = ({ navCategory, updateItems, loading, elements, nextPage, category }) => (
+const Category = ({
+  navCategory,
+  updateItems,
+  loading,
+  elements,
+  nextPage,
+  category
+}) => (
   <div className="wrapper-category">
     <div className="header-category">
       <div
